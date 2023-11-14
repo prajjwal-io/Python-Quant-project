@@ -14,6 +14,8 @@ This code implements a mean-reverting strategy for backtesting on stock data. Th
 2. Select the 10 stocks with the lowest PMAR, Bollinger Bands Ratio, and Percentage Change from 20-day Low.
 3. Rebalance the portfolio to hold a long position of 100 shares of each stock in the selected_stocks list.
 
+4. Current update - As there are larger than 500 stocks which results in memory allocation error further approach can involve using backtrader for backtesting.
+
 **Usage:**
 
 To use the code, you will need to provide the following two files:
