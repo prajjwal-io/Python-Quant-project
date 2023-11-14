@@ -18,8 +18,8 @@ This code implements a mean-reverting strategy for backtesting on stock data. Th
 
 To use the code, you will need to provide the following two files:
 
-* `csi500.csv`: A CSV file containing the CSI 500 index data.
-* `all_stocks_data.csv`: A CSV file containing all of the stock data for the stocks in the CSI 500 index.
+* `csi500.csv`: A CSV file containing the CSI 500 index data. - Use indexStockData.py to download
+* `all_stocks_data.csv`: A CSV file containing all of the stock data for the stocks in the CSI 500 index. - Use allStockData.py to download
 
 Once you have downloaded these two files, you can run the code by following these steps:
 
